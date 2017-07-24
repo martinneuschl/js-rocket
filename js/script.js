@@ -1,3 +1,21 @@
+//  takhle udělám komentář na jeden řádek
+/*
+komentáře
+na více
+řádků
+*/
+
+var doCoolStuff = function() {
+	var currentClassName = document.getElementById('cool').className;
+
+	if (currentClassName == 'cool') {
+		document.getElementById('cool').className = 'cool red';	
+	} else {
+		document.getElementById('cool').className = 'cool';	
+	}
+	// changing class name
+	
+}
 var sayMyName = function (name) {
 	alert('My name is ' +name);
 }
